@@ -1,0 +1,68 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="survey/survey.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<title>CH Customer Srevice Survey</title>
+<div class="description">
+    <h1 id="title"><strong>Customer Service Experience</strong></h1>
+    <p id="description">This survey is to know our customers opinion, to improve our service</p>
+</div>
+<div class="survey-form">
+ <form id="survey-form">
+    <label id="name-label" for="fname"><strong>Name*</strong></label><br><br>
+    <input class="textBox" type="text" id="name" name="fname" placeholder= "Andrew Jones" required><br><br>
+    <label for="tel"><strong>Phone number</strong> (optional)</label><br><br>
+    <input class="textBox" type="tel" id="tel-label" name="tel" placeholder="999 999 9999"><br><br>
+    <label id="email-label" for="email"><strong>E-mail*</strong></label><br><br>
+    <input class="textBox" type="email" id="email" name="fname" placeholder="name@gmail.com" required><br><br>
+    <label for="boking" id="booking" name="boking"><strong>How did you book?</strong></label><br><br>
+    <input class="textBox" id="list" list="bookingBrowsers">
+     <datalist class="textBox" id="bookingBrowsers" id="bookingBrowsers">
+          <option value="Hotel Web Page"></option>
+          <option value="Booking.com"></option>
+          <option value="Hotels.com"></option>
+     </datalist><br><br>
+    <label id="number-label" for="number" id="number" name="number"><strong>How long did you stay?</strong></label><br><br>
+    <input class="nights textBox" type="number" id="number" name="number" placeholder="Nights" min="1" max="365"><br>
+    <p><strong>How do you rate our staff service?</strong></p>
+    <label class= "rating">
+    <input type="radio" id="rating" name="rating" value="excellent">
+    <strong>Excellent</strong>
+    </label><br>
+    <label>
+    <input type="radio" id="rating" name="rating" value="outstanding">
+    <strong>Outstanding</strong>
+    </label><br>
+    <label>
+    <input type="radio" id="rating" name="rating" value="regular">
+    <strong>Regular</strong>
+    </label><br>
+    <label>
+    <input type="radio" id="rating" name="rating" value="bad">
+    <strong>Bad</strong>
+    </label><br><br>
+    <p><strong>Which of our services did you enjoy the most?</strong></p>
+    <label>
+     <input class="checkboxes" type="checkbox" id="services" name="restaurant" value="restaurant"><strong>Restaurant La Molienda</strong>
+    </label><br>
+    <label>
+     <input class="checkboxes" type="checkbox" id="services" name="restaurant" value="restaurant"><strong>Restaurant La Vista</strong>
+    </label><br>
+    <label>
+     <input class="checkboxes" type="checkbox" id="services" name="gym" value="gym"><strong>Gym</strong>
+    </label><br>
+    <label>
+     <input class="checkboxes" type="checkbox" id="services" name="pool" value="pool"><strong>Pool</strong>
+    </label><br>
+    <label>
+     <input class="checkboxes" type="checkbox" id="services" name="jacuzzi" value="jacuzzi"><strong>Jacuzzi</strong>
+    </label><br>
+    <label>
+     <input class="checkboxes" type="checkbox" id="services" name="halls" value="halls"><strong>Banquet Halls</strong>
+    </label><br>
+
+    <p><strong>Any comments, congratulations, complaints or suggestions?</strong></p>
+    <textarea id="textArea"></textarea><br><br>
+    <input id="submit" type="submit" value="Submit">
+ </form>
+</div>

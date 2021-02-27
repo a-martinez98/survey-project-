@@ -1,0 +1,46 @@
+/******************CLASS******************/
+.description{
+    width:60%;
+    margin: auto;
+    text-align: center;
+}
+.survey-form{
+    background: #532e1c;
+    width: 40%;
+    margin: auto;
+    color: #c5a880;
+    padding: 30px;
+}
+
+/******************ID*****************/
+#submit{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width:100%
+}
+#submit:hover{
+    background-color: #c5a880;
+}
+#textArea{
+    background: #e6e6e6;
+    width:100%;
+    max-width:100%;
+    max-height: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+/******************TAGS***************/
+body{
+    font-family:'Montserrat';
+    background: #e6e6e6;
+}
+.textBox{
+    background: #e6e6e6;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
